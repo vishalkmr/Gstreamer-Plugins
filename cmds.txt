@@ -1,0 +1,24 @@
+#Compiling the plugin
+meson build
+ninja -C build
+
+#finding .so file
+find -name *.so
+
+#gst-inspect
+gst-inspect-1.0 ./build/gst-plugin/libgstprocess.so
+
+#default  pipeline
+gst-launch-1.0 --gst-plugin-path=/home/vishkumar/Gstreamer/plugins/gst-template/build/gst-plugin/ videotestsrc ! videoconvert ! process ! videoconvert ! autovideosink
+
+
+#pipeline with blink
+gst-launch-1.0 --gst-plugin-path=/home/vishkumar/Gstreamer/plugins/gst-template/build/gst-plugin/ videotestsrc ! videoconvert ! process blink=1 ! videoconvert ! autovideosink
+
+
+#pipeline with 180 rotation
+gst-launch-1.0 --gst-plugin-path=/home/vishkumar/Gstreamer/plugins/gst-template/build/gst-plugin/ videotestsrc ! videoconvert ! process rotate=1 ! videoconvert ! autovideosink
+
+
+#pipeline with blink and 180 rotation
+gst-launch-1.0 --gst-plugin-path=/home/vishkumar/Gstreamer/plugins/gst-template/build/gst-plugin/ videotestsrc ! videoconvert ! process blink=1  rotate=1 ! videoconvert ! autovideosink

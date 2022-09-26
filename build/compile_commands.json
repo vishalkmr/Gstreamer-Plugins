@@ -1,0 +1,32 @@
+[
+  {
+    "directory": "/home/vishkumar/Gstreamer/plugins/gst-template/build",
+    "command": "cc -Igst-app/d41a293@@gst-app@exe -Igst-app -I../gst-app -I/usr/local/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gstreamer-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -MD -MQ 'gst-app/d41a293@@gst-app@exe/src_main.c.o' -MF 'gst-app/d41a293@@gst-app@exe/src_main.c.o.d' -o 'gst-app/d41a293@@gst-app@exe/src_main.c.o' -c ../gst-app/src/main.c",
+    "file": "../gst-app/src/main.c",
+    "output": "gst-app/d41a293@@gst-app@exe/src_main.c.o"
+  },
+  {
+    "directory": "/home/vishkumar/Gstreamer/plugins/gst-template/build",
+    "command": "cc -Igst-app/d41a293@@gst-app@exe -Igst-app -I../gst-app -I/usr/local/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gstreamer-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -MD -MQ 'gst-app/d41a293@@gst-app@exe/src_play.c.o' -MF 'gst-app/d41a293@@gst-app@exe/src_play.c.o.d' -o 'gst-app/d41a293@@gst-app@exe/src_play.c.o' -c ../gst-app/src/play.c",
+    "file": "../gst-app/src/play.c",
+    "output": "gst-app/d41a293@@gst-app@exe/src_play.c.o"
+  },
+  {
+    "directory": "/home/vishkumar/Gstreamer/plugins/gst-template/build",
+    "command": "cc -Igst-plugin/73de98a@@gstplugin@sha -Igst-plugin -I../gst-plugin -I/usr/local/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gstreamer-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -DHAVE_CONFIG_H -MD -MQ 'gst-plugin/73de98a@@gstplugin@sha/src_gstplugin.c.o' -MF 'gst-plugin/73de98a@@gstplugin@sha/src_gstplugin.c.o.d' -o 'gst-plugin/73de98a@@gstplugin@sha/src_gstplugin.c.o' -c ../gst-plugin/src/gstplugin.c",
+    "file": "../gst-plugin/src/gstplugin.c",
+    "output": "gst-plugin/73de98a@@gstplugin@sha/src_gstplugin.c.o"
+  },
+  {
+    "directory": "/home/vishkumar/Gstreamer/plugins/gst-template/build",
+    "command": "cc -Igst-plugin/73de98a@@gstaudiofilterexample@sha -Igst-plugin -I../gst-plugin -I/usr/local/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gstreamer-1.0 -I/usr/include/orc-0.4 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -DHAVE_CONFIG_H -MD -MQ 'gst-plugin/73de98a@@gstaudiofilterexample@sha/src_gstaudiofilter.c.o' -MF 'gst-plugin/73de98a@@gstaudiofilterexample@sha/src_gstaudiofilter.c.o.d' -o 'gst-plugin/73de98a@@gstaudiofilterexample@sha/src_gstaudiofilter.c.o' -c ../gst-plugin/src/gstaudiofilter.c",
+    "file": "../gst-plugin/src/gstaudiofilter.c",
+    "output": "gst-plugin/73de98a@@gstaudiofilterexample@sha/src_gstaudiofilter.c.o"
+  },
+  {
+    "directory": "/home/vishkumar/Gstreamer/plugins/gst-template/build",
+    "command": "cc -Igst-plugin/73de98a@@gstprocess@sha -Igst-plugin -I../gst-plugin -I/usr/local/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gstreamer-1.0 -I/usr/include/orc-0.4 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -DHAVE_CONFIG_H -MD -MQ 'gst-plugin/73de98a@@gstprocess@sha/src_gstprocess.c.o' -MF 'gst-plugin/73de98a@@gstprocess@sha/src_gstprocess.c.o.d' -o 'gst-plugin/73de98a@@gstprocess@sha/src_gstprocess.c.o' -c ../gst-plugin/src/gstprocess.c",
+    "file": "../gst-plugin/src/gstprocess.c",
+    "output": "gst-plugin/73de98a@@gstprocess@sha/src_gstprocess.c.o"
+  }
+]
